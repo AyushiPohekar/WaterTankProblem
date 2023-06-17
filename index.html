@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <input id="inputArray" type="text" placeholder="Enter numbers separated by commas">
+    <div class="container">
+        <div class="inputContainer">
+    <input id="inputArray" type="text" placeholder=" Enter input array numbers separated by commas ">
+    <p>Ex:9,0,0,6,7,8,9(do not enter brackets)</p>
+</div>
     <button onclick="generateTable()">Generate Table</button>
-    <br><br>
+   
     <table id="myTable"></table>
     <button onclick="generateOutput()">Generate Output</button>
-    <br>
+    
     <table id="outputTable"></table>
     <button onclick="refresh()" >Click to clear input </button>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
